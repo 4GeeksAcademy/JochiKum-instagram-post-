@@ -1,0 +1,53 @@
+body {
+    background: black;
+}
+.post {
+    width: 500px;
+    margin: auto;
+    background: white;
+}
+.post-header {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+}
+.title {
+    display: block;
+    width: 100%;
+    font-size: 60%;
+    padding: 10px;
+}
+.icon {
+    font-size: 30px;
+}
+h1,h2 {
+    margin: 0;
+   padding: 0;
+}
+h2{
+    font-weight: 300;
+}
+img{
+    object-fit: contain;
+    width: 500px;
+}
+.post-icons{
+    display: flex;
+    padding: 10px 5px;
+}
+.post-icons .icon{
+    margin: 0 5px;
+}
+.post-icons .icon:last-child{
+    margin-left: auto;
+}
+.post-likes{
+    margin: 0;
+    padding: 0 10px;
+}
+.post-text{
+    margin-top: 0;
+    padding: 0 10px 10px 10px;
+}
+
+  
